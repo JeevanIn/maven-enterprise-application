@@ -18,5 +18,19 @@
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 </properties>
-  
+  <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Jeevan_Releases Repository</name>
+	      <url>http://3.14.143.138:8081/repository/Jeevan_Releases/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Jeevan_snapshot Repository </name>
+	      <url>http://3.14.143.138:8081/repository/jeevan_Snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 </project>
